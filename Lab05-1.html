@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+</head>
+<body class="container">
+<header class="container">
+    <div class="collapse navbar-collapse navbar navbar-expand-md navbar-light row">
+        <div class="col-md-6">
+            <h1>Share Your Travels</h1>
+            <small class="font-italic">Let's know where you've been</small>
+        </div>
+        <ul class="collapse navbar-collapse navbar-nav justify-content-end nav-fill col-md-6 offset-md-1">
+            <li class="nav-item">
+                <a class="nav-link" href="Lab05.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Feeling Lucky</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">User</a>
+            </li>
+        </ul>
+    </div>
+</header>
+
+    <div class="container border">
+        <form>
+            <h4>PHOTO DETAILS</h4>
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" class="form-control" placeholder="Give your photo a descriptive name" id="title">
+            </div>
+            <div class="form-group">
+                <label for="description">Description</label>
+                <textarea rows="3" class="form-control" placeholder="Adding a rich description will help with search results" id="description"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Continent</label>
+                <select class="form-control"><option value ="volvo">Choose continent</option></select>
+            </div>
+            <div class="form-group">
+                <label>Country</label>
+                <select class="form-control"><option value ="volvo">Choose country</option></select>
+            </div>
+            <div class="form-group">
+                <label>City</label>
+                <input class="form-control" type="text" name="city" class="form-control">
+            </div>
+
+
+            <div class="radio">
+                <h6>Copyright</h6>
+                <input type="radio" name="r1">All rights reserved<br>
+                <input type="radio" name="r1">Creative Commons
+            </div>
+            <br>
+            <div>
+                <h6>Creative common types</h6>
+
+                <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="">Attribution
+                </label>
+
+
+                <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="">Noncommercial
+                </label>
+
+                <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="">No Derivative Works
+                </label>
+            </div>
+            <br>
+            <p class="rectangle"> <input type="checkbox">I accept software license</p>
+
+
+            <div class="row">
+                <div class="col-md-5">
+                    <label>Rate this photo:</label><br>
+                    <input type="text" class="form-control" >
+                </div>
+                <div class="col-md-3">
+                    <label>Color Collection:</label><br>
+                    <input type="text" class="form-control" >
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-5">
+                    <label>Date Taken</label>
+                    <input type="text" class="form-control" >
+                </div>
+                <div class="col-md-5">
+                    <label>Time Take</label>
+                    <input type="text" class="form-control" >
+                </div>
+            </div>
+            <br>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary">提交</button>
+                <button type="reset" class="btn btn-primary">Clear Form</button>
+            </div>
+        </form>
+    </div>
+
+
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+</body>
+</html>

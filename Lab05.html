@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="container">
+        <div class="collapse navbar-collapse navbar navbar-expand-md navbar-light row">
+            <div class="col-sm-6 te-center">
+                <h1>Share Your Travels</h1>
+                <small class="font-italic">Let's know where you've been</small>
+            </div>
+            <ul class="collapse navbar-collapse navbar-nav justify-content-end nav-fill col-sm-6">
+                <li class="nav-item">
+                    <a class="nav-link" href="Lab05-1.html">Upload</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Related Photos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Reviews</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="container col-md-9 card">
+                    <div class="card-body">
+                        <h2>NEW YORK - CENTER PARK</h2>
+                        <a href="images/large-central-park.jpg"><img src="images/large-central-park.jpg" width="100%"></a>
+                        <figure>Conservatory Pond in Center Park</figure>
+                        <p>
+                            This photo of Conservatory Pond in <a href="#" class="hp"><b>Center Park</b></a> in <a href="#" class="hp"><b>New York City</b></a> was taken on October 22,2016 with a Canon EOS 30D camera.
+                        </p>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8"> </div>
+                                <div class="btn-group col-md-3">
+                                    <button type="button" class="btn"><img src="images/icon_download.png"></button>
+                                    <button type="button" class="btn"><img src="images/icon_mail.png"></button>
+                                    <button type="button" class="btn"><img src="images/icon_map.png"></button>
+                                    <button type="button" class="btn"><img src="images/icon_up.png"></button>
+                                    <button type="button" class="btn"><img src="images/icon_down.png"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>RELATED PHOTOS</h4>
+                        <div id="demo" class="carousel slide" data-ride="carousel">
+
+                            <ul class="carousel-indicators">
+                                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                                <li data-target="#demo" data-slide-to="1"></li>
+                                <li data-target="#demo" data-slide-to="2"></li>
+                            </ul>
+
+
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <a href="images/related-large1.jpg"><img src="images/related-square1.jpg" width="100%"></a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="images/related-large2.jpg"><img src="images/related-square2.jpg" width="100%"></a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="images/related-large3.jpg"><img src="images/related-square3.jpg" width="100%"></a>
+                                </div>
+                            </div>
+
+
+                            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#demo" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="accordion">
+
+                    <div class="card">
+                        <h4>REVIEWS</h4>
+
+                        <div class="text-center font-italic ">
+                            <a class="card-link" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                Ricardo
+                            </a>
+                        </div>
+
+                        <div class="text-center font-italic ">
+                            <a class="badge badge-pill badge-info font-italic">
+                                2016-05-23
+                            </a>
+                        </div>
+                        <br>
+                        <div id="collapseOne" class="collapse">
+                            <div class="card-block text-center">
+                                Easy on the HDR buddy.
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="card">
+
+                        <div class="text-center font-italic ">
+                            <a class="collapsed card-link text-center font-italic" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                Susan
+                            </a>
+                        </div>
+                        <div class="text-center font-italic ">
+                            <a class="badge badge-pill badge-info font-italic">
+                                2016-11-18
+                            </a>
+                        </div>
+                        <br>
+                        <div id="collapseTwo" class="collapse">
+                            <div class="card-block text-center">
+                                I love Central Park.
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Browse</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Search</a>
+        </li>
+    </ul>
+
+
+    <div class="font-italic text-secondary text-center">
+            Copyright &copy 2017 Share Your Travels
+    </div>
+
+
+    <!--script-->
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+</body>
+</html>
