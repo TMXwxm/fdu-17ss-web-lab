@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+table.createdTable{
+    background: whitesmoke;
+    margin: auto;
+}
+table#createTable{
+    margin: auto;
+}
+table select{
+    width: 100%;
+}
+th{
+    background: gray;
+    color: whitesmoke;
+}
+th,tr{
+    padding: 0 0.5em;
+}
+button{
+    width: 300px;
+    background: whitesmoke;
+    border-radius: 10px;
+    display: none;
+    margin: auto;
+}
+
+#tableTheTable{
+    margin: auto;
+}
+.createdTd{
+}
+.createdTable tr:nth-child(odd){
+    background: gray;
+}
+table.margin-auto{
+    margin: auto;
+}
+#deleteTable{
+    margin: auto;
+    display: none;
+    color: red;
+}
+#names{
+    width: 300px
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/Lab07.css" rel="stylesheet" />
+    <script src="js/Lab07.js" type="text/JavaScript"></script>
+</head>
+<body>
+
+<table id="createTable">
+    <tr>
+        <td colspan="2">
+            <select id="select" onchange="changeSelect()">
+                <option value ="selectOne">SELECT ONE </option>
+                <option value ="createTable">CREATE TABLE </option>
+                <option value="addRow">ADD ROW</option>
+                <option value="deleteRow">DELETE ROW</option>
+                <option value="deleteTable">DELETE TABLE</option>
+            </select>
+        </td>
+    </tr>
+    <tr id="inputPane">
+        <td>
+            <form>
+                <input type="text" placeholder="Table Name" id="name">
+                <input type="number" placeholder="Columns Number" onchange="checkColAndAdd()" id="ColNumber">
+            </form>
+        </td>
+    </tr>
+</table>
+
+<table id="tableTheTable">
+    <tr id="inTable"></tr>
+    <tr id="addRow"></tr>
+    <tr id="deleteRow"></tr>
+    <tr id="deleteTable"><td>WARNING: You cannot undo this action!</td></tr>
+</table>
+
+<button id="commitButton" onclick="createTable()">commit</button>
+<table class="margin-auto">
+    <tr><td>
+        <select id="names" onchange="changeTableEvent()">
+            <option>default</option>;
+        </select>
+    </td></tr>
+</table>
+<div id="createdTables">
+</div>
+</body>
+</html>
